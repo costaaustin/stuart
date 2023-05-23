@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#main-nav{
+    display: flex;
+    margin: 40px 20px;
+    justify-content:space-around ;
+    margin-bottom: 50px;
+}
+.nav-item ul{
+    display: flex;
+}
+
+.nav-items a{
+    padding:20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.nav-items li{
+    list-style: none;
+}
+.nav--items a{
+    text-decoration: none;
+    color: white;
+    font-size: bold;
+    border: 2px solid black;
+    padding: 14px;
+    border-radius: 50px;
+    background-color:hsl(12, 88%, 59%);
+    font-size: 18px;
+}
+.first-items{
+
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.first-items-left{
+    flex-basis: 20%;
+    line-height: 1.5;
+    padding-right:22px;
+    margin-right: 23%;
+}
+.first-items-left button{
+    padding: 18px;
+    margin-top: 22px;
+    cursor: pointer;
+    border-radius: 50px;
+    background-color:hsl(12, 88%, 59%);
+}
+
+.first-items-right img{
+    align-items: flex-end;
+    right:0;
+}
+
+
+
+/*///////second////*/
+.sections{
+    display: flex;
+    flex-basis: 80%;
+    margin: 2% 10%;
+}
+.section-a{
+    flex-basis: 40%;
+}
+.sections-b{
+    flex-basis: 50%;
+}
+.second{
+    display: flex;
+    padding: 20px 0;
+}
+.second h1 p{
+    margin: 0 20px;
+}
+span{
+    background-color:hsl(12, 88%, 59%); 
+    padding:0 10px;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+/*//////////topic*/   
+.topic{
+    text-align: center;
+}
+
+.testimonie{
+    display: flex;
+    flex-basis: 60%;
+    justify-content: center;
+}
+.testimonie div{
+    flex-basis: 60%;
+    margin: 80px;
+    justify-content: center;
+}
+.btn{
+    border: none;
+    border-radius: 50px;
+    align-self: center;
+    padding:20px;
+    justify-content: center;
+    margin-left: 45%;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: 22px;
+    background-color:hsl(12, 88%, 59%);
+}
+
+.costa{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:hsl(12, 88%, 59%) ;
+    padding: 25px;
+
+}
+.costa-left{
+    width: 20%;
+    font-size: 22px;
+    margin-left: -50%;
+    color: white;
+}
+.costa-right{
+    margin-right: -50%;
+}
+.costa-right button{
+    color: hsl(12, 88%, 59%);
+    padding: 22px;
+    border-radius: 50px;
+    border: none;
+}
+footer{
+    background-color: black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+footer li{
+    list-style: none;
+    margin: 22px;
+    color: gray;
+}
+
+.footer-img2{
+    margin-bottom: 60px ;
+}
+.copyright{
+    
+}
+
+/*.footter-li1{
+    padding: 8px;
+    margin-left: 50px;
+    background: white;
+    border-radius: 50px;
+}*/
+.updates{
+    display: flex;
+}
+.col{
+    background: white;
+    border-radius: 50px;
+    padding: 12px;
+}
